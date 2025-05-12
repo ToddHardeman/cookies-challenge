@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Create a repository for this challenge named cookies-challengeCreate an Express application that sets a cookie when routed to /login with their name. If a cookie is present with a name key, then it says \"Welcome {name}! when the user routes to /hello\".",
+  "homepage": "https://github.com/ToddHardeman/cookies-challenge#readme",
+  "bugs": {
+    "url": "https://github.com/ToddHardeman/cookies-challenge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ToddHardeman/cookies-challenge.git"
+  },
+  "license": "MIT",
+  "author": "Todd Hardeman",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
